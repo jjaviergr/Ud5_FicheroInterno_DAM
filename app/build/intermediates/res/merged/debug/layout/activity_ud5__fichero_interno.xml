@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ud5_FicheroInterno" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:text="Introduce algún texto" />
+    
+    <EditText
+        android:id="@+id/txtText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnGuardar"
+        android:text="Guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGuardar" />
+    
+     <Button
+        android:id="@+id/btnCargar"
+        android:text="Cargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCargar" />
+     
+      <Button
+        android:id="@+id/btnCargarRaw"
+        android:text="Cargar fichero de res/raw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickCargarRaw" />
+
+</LinearLayout><!-- From: file:/C:/AndroidStudioProyects/Ud5_FicheroInterno/app/src/main/res/layout/activity_ud5__fichero_interno.xml -->
